@@ -1,55 +1,23 @@
 const data =  [
     {
-        title: "English Primary Two Teacher",
-        summary: "Under general supervision, develops curricula and creates, implements, and delivers educational programs for student audiences to achieve the goals and objectives of a contract or grant-funded program. Advises, tests, and teaches students in a variety of subjects. Plans, develops and oversees community outreach programs. Promotes programs through community networking and recruiting efforts; recruits and trains tutors and teachers. May coordinate and implement recruitment and retention programs, special events, and support services. May provide financial aid/scholarship advisement for targeted student populations.",
-        duties: ["Develops, plans, and implements curriculum, lesson plans, and educational programs for student audiences within areas of expertise.",
-                "Advises, tests, and teaches students audiences in a variety of academic subjects. Presents and reinforces learning concepts within a specified subject or subject area.",
-                "Answers student inquiries and resolves problems related to curriculum and course prerequisites, referring to catalogues, written course descriptions, and other appropriate sources.",
-                "Plans, develops and oversees community outreach activities for targeted student populations. Promotes programs and recruits students through networking with local school and community groups.",
-                "Prepares appropriate documentation and reports on programs and on student progress.",
-                "Recruits, trains, and supervises tutors and teachers who participate in the adult basic education programs.",
-                "Coordinates retention activities including student mentor programs, tutor services, advising, and study skills workshops; plans, develops, and coordinates special events."
+        title: " Nturi Wenyine Program",
+        summary: `
+        Oleander Nursery and Primary School has a program of (Nturi Wenyine) meaning (You Are Not Alone) of which is helping and advocating for vulnerable child within school catchment area.
+        `,
+        duties: ["2015: In this year, we started this program and we started taking care of education vulnerable for 2 children. We took care of their tuition and other relevant needs to succeed at school.",
+                "2016:  We started doing advocacy for this program and we tried to find sponsors who would be taking care of education vulnerable for any number of children to care of their tuition and other relevant needs to succeed at school.",
+                "2017: In this year we were blessed to find 2 sponsors.",
+                "2018: In this year we also were blessed to find 2 more sponsors.",
+                "2019: This year we found more sponsors but we also start to support the relationship between sponsors and families mostly in terms of communication.",
+                "2020: This year we found more sponsors and kept on supporting sponsor - family relationships.",
+                "2021: This year we finished building a strong foundation to manage sponsorship related issues, and we were blessed with more sponsors."
     ],
-        requirements: ["Bachelor's degree; at least 1 year of experience directly related to the duties and responsibilities specified.","Completed degree(s) from an accredited institution that are above the minimum education requirement may be substituted for experience on a year for year basis.","Strong interpersonal and communication skills and the ability to work effectively with a wide range of constituencies in a diverse community.","Ability to communicate effectively, both orally and in writing.","Ability to gather data, compile information, and prepare reports."],
-    },
-    {
-        title: "English Primary Two Teacher",
-        summary: "Under general supervision, develops curricula and creates, implements, and delivers educational programs for student audiences to achieve the goals and objectives of a contract or grant-funded program. Advises, tests, and teaches students in a variety of subjects. Plans, develops and oversees community outreach programs. Promotes programs through community networking and recruiting efforts; recruits and trains tutors and teachers. May coordinate and implement recruitment and retention programs, special events, and support services. May provide financial aid/scholarship advisement for targeted student populations.",
-        duties: ["Develops, plans, and implements curriculum, lesson plans, and educational programs for student audiences within areas of expertise.",
-                "Advises, tests, and teaches students audiences in a variety of academic subjects. Presents and reinforces learning concepts within a specified subject or subject area.",
-                "Answers student inquiries and resolves problems related to curriculum and course prerequisites, referring to catalogues, written course descriptions, and other appropriate sources.",
-                "Plans, develops and oversees community outreach activities for targeted student populations. Promotes programs and recruits students through networking with local school and community groups.",
-                "Prepares appropriate documentation and reports on programs and on student progress.",
-                "Recruits, trains, and supervises tutors and teachers who participate in the adult basic education programs.",
-                "Coordinates retention activities including student mentor programs, tutor services, advising, and study skills workshops; plans, develops, and coordinates special events."
-    ],
-        requirements: ["Bachelor's degree; at least 1 year of experience directly related to the duties and responsibilities specified.","Completed degree(s) from an accredited institution that are above the minimum education requirement may be substituted for experience on a year for year basis.","Strong interpersonal and communication skills and the ability to work effectively with a wide range of constituencies in a diverse community.","Ability to communicate effectively, both orally and in writing.","Ability to gather data, compile information, and prepare reports."],
-    }
-    ,{
-        title: "English Primary Two Teacher",
-        summary: "Under general supervision, develops curricula and creates, implements, and delivers educational programs for student audiences to achieve the goals and objectives of a contract or grant-funded program. Advises, tests, and teaches students in a variety of subjects. Plans, develops and oversees community outreach programs. Promotes programs through community networking and recruiting efforts; recruits and trains tutors and teachers. May coordinate and implement recruitment and retention programs, special events, and support services. May provide financial aid/scholarship advisement for targeted student populations.",
-        duties: ["Develops, plans, and implements curriculum, lesson plans, and educational programs for student audiences within areas of expertise.",
-                "Advises, tests, and teaches students audiences in a variety of academic subjects. Presents and reinforces learning concepts within a specified subject or subject area.",
-                "Answers student inquiries and resolves problems related to curriculum and course prerequisites, referring to catalogues, written course descriptions, and other appropriate sources.",
-                "Plans, develops and oversees community outreach activities for targeted student populations. Promotes programs and recruits students through networking with local school and community groups.",
-                "Prepares appropriate documentation and reports on programs and on student progress.",
-                "Recruits, trains, and supervises tutors and teachers who participate in the adult basic education programs.",
-                "Coordinates retention activities including student mentor programs, tutor services, advising, and study skills workshops; plans, develops, and coordinates special events."
-    ],
-        requirements: ["Bachelor's degree; at least 1 year of experience directly related to the duties and responsibilities specified.","Completed degree(s) from an accredited institution that are above the minimum education requirement may be substituted for experience on a year for year basis.","Strong interpersonal and communication skills and the ability to work effectively with a wide range of constituencies in a diverse community.","Ability to communicate effectively, both orally and in writing.","Ability to gather data, compile information, and prepare reports."],
-    }
-    ,{
-        title: "English Primary Two Teacher",
-        summary: "Under general supervision, develops curricula and creates, implements, and delivers educational programs for student audiences to achieve the goals and objectives of a contract or grant-funded program. Advises, tests, and teaches students in a variety of subjects. Plans, develops and oversees community outreach programs. Promotes programs through community networking and recruiting efforts; recruits and trains tutors and teachers. May coordinate and implement recruitment and retention programs, special events, and support services. May provide financial aid/scholarship advisement for targeted student populations.",
-        duties: ["Develops, plans, and implements curriculum, lesson plans, and educational programs for student audiences within areas of expertise.",
-                "Advises, tests, and teaches students audiences in a variety of academic subjects. Presents and reinforces learning concepts within a specified subject or subject area.",
-                "Answers student inquiries and resolves problems related to curriculum and course prerequisites, referring to catalogues, written course descriptions, and other appropriate sources.",
-                "Plans, develops and oversees community outreach activities for targeted student populations. Promotes programs and recruits students through networking with local school and community groups.",
-                "Prepares appropriate documentation and reports on programs and on student progress.",
-                "Recruits, trains, and supervises tutors and teachers who participate in the adult basic education programs.",
-                "Coordinates retention activities including student mentor programs, tutor services, advising, and study skills workshops; plans, develops, and coordinates special events."
-    ],
-        requirements: ["Bachelor's degree; at least 1 year of experience directly related to the duties and responsibilities specified.","Completed degree(s) from an accredited institution that are above the minimum education requirement may be substituted for experience on a year for year basis.","Strong interpersonal and communication skills and the ability to work effectively with a wide range of constituencies in a diverse community.","Ability to communicate effectively, both orally and in writing.","Ability to gather data, compile information, and prepare reports."],
+        requirements: [
+            "We accept donations and we provide support to families in the process of donation."
+        ,"To get involved click on the get involved button below, which takes you to donations page."
+        ,"You can also get involved by sending an email to olns2015@gmail.com"
+        ,"If you send an email, we will send you forms to fill, so it would be faster to click the button below."
+        ,"You can support student in many different ways, including but not limited to school fees and studying materials."],
     }
 ];
 

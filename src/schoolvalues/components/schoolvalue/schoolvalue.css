@@ -1,0 +1,73 @@
+
+.card {
+  background: white;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 300px;
+  margin: 20px;
+  padding: 20px 20px 40px 20px;
+  position: relative;
+  text-align: center;
+  transition: height 1000ms;
+  width: 260px;
+  transition: all .3s ease-out;
+  -webkit-tap-highlight-color: rgba(0,0,0,0.025);
+}
+.card:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.card.expanded {
+  height: fit-content;
+}
+.label {
+  transform: translateY(10px);
+  transition: transform 1000ms;
+  font-size: 2em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+margin-top: 100px;
+}
+.card.expanded .label {
+  transform: translateY(0);
+}
+
+.text1 {
+  clip-path: polygon(0% 100%, 0 -90%, 50% -5%, 100% -90%, 100% 100%);
+  -webkit-clip-path: polygon(0% 100%, 0 -90%, 50% -5%, 100% -90%, 100% 100%);
+  transition: clip-path 1000ms;
+}
+.card.expanded .text1 {
+  clip-path: polygon(0% 100%, 0 -100%, 50% -15%, 100% -100%, 100% 100%);
+  -webkit-clip-path: polygon(0% 100%, 0 -100%, 50% -15%, 100% -100%, 100% 100%);
+}
+.text-content {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: all 1000ms;
+  margin-top: -20px;
+}
+.card.expanded .text-content {
+  opacity: 1;
+  transform: translateY(0%);
+}
+.chevron {
+  position: absolute;
+  bottom: 20px;
+  left: calc(50% - 15px);
+  transform-origin: 50%;
+  transform: rotate(180deg);
+  transition: transform 1000ms;
+}
+
+.card.expanded .chevron {
+  transform: rotate(0deg);
+}
+.title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 900;
+  margin: 20px 0 12px;
+}
+.body-text {
+  padding: 50px 20px;
+}
+

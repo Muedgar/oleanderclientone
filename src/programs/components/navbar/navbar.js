@@ -1,4 +1,4 @@
-import {useState} from "react";
+import React, {useState} from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -33,9 +33,10 @@ function NavBar() {
                 window.location = "/";
             }}
             >
-              <NavDropdown.Item href="#home/3.1">Who we are</NavDropdown.Item>
-              <NavDropdown.Item href="#home/3.2">Organizational Structure</NavDropdown.Item>
-              <NavDropdown.Item href="#home/3.3">School history</NavDropdown.Item>
+              <NavDropdown.Item href="/#hero">Who we are</NavDropdown.Item>
+              <NavDropdown.Item href="/#classesweteach">Classes We Teach</NavDropdown.Item>
+              <NavDropdown.Item href="/#gallery">School Photos</NavDropdown.Item>
+              <NavDropdown.Item href="/#teachers">Our Teachers</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link className="active" id="programs" href="#programs" onClick={() => {
                 setIsHomeActive(false);

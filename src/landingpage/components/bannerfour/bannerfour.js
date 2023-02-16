@@ -73,7 +73,7 @@ function BannerFour() {
     },[])
 
     return(
-        <div className="bannerFourContainer">
+        <div id="classesweteach" className="bannerFourContainer">
             <h1>Our Popular Classes</h1>
             <div className="contentSlider">
             <Swiper

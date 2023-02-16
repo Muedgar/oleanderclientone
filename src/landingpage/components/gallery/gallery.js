@@ -35,7 +35,7 @@ function Gallery() {
     },[])
 
     return (
-        <div className="galleryContainer">
+        <div id="gallery" className="galleryContainer">
             <div className="galleryActionCall">
                 <h1>Photo Gallery</h1>
                 <p></p>

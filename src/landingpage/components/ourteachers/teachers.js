@@ -22,7 +22,7 @@ import teacher12 from "./assets/12.JPG";
 
 function Teachers() {
     return(
-        <div className="teachersContainer">
+        <div id="teachers" className="teachersContainer">
           <h1>Some of Our Teachers</h1>
           <div className="teachers">
             <Teacher id="teacherId1" image={teacher1} name="Musinguzi Didas" responsibility="Dean of Studies."/>

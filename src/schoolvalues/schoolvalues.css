@@ -1,0 +1,96 @@
+
+@media (max-width: 1400px) {
+    .schoolvaluesCards {
+      margin-top: 50px;
+    width: 100vw;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  }
+  
+  @media (max-width: 1200px) {
+    .schoolvaluesCards {
+      margin-top: 50px;
+    width: 100vw;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  }
+  
+  @media (max-width: 1000px) {
+    .schoolvaluesCards {
+      margin-top: 50px;
+    width: 100vw;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  }
+  
+  @media (max-width: 700px) {
+    .schoolvaluesCards {
+      margin-top: 50px;
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  }
+
+
+  @font-face {
+    font-family: OpenSans;
+    src: url('./components/fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url('./components/fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf');
+    font-weight: 500;
+}
+
+
+
+
+@font-face {
+    font-family: OpenSans;
+    src: url('./components/fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf');
+    font-weight: 400;
+}
+
+.schoolvaluesCardsTitle {
+    width: 100%;
+    height: fit-content;
+    background-size: cover;
+    margin: 0;
+    padding-top: 100px;
+    position: relative;
+}
+
+.schoolvaluesCardsTitle h1 {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    font-family: 'OpenSans';
+    font-size: 4em;
+    color: black;
+    font-weight: bolder;
+    z-index: 2;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.schoolvaluesCardsTitle h1::before {
+    content: '';
+    position: absolute;
+    left: 48.5%;
+    bottom: -10px;
+    width: 60px;
+    height: 2px;
+    background-color: rgb(116,188,65);
+}
